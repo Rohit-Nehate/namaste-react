@@ -13,7 +13,7 @@ const Restaurent = ()  =>{
 
     
 
-const {resIDs}= useParams()
+const {resIDs}= useParams() 
     
 const resInfo = useRestaurentData(resIDs)
 

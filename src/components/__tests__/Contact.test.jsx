@@ -6,8 +6,8 @@ test("should load heading in conact", ()=>{
 
 render(<Contact/>)
 
-const heading = screen.getByRole("heading")
-expect(heading).toBeInTheDocument()
+const heading = screen.getAllByRole("heading")
+expect(heading.length).toBe(1)
 
 })
 
@@ -20,4 +20,4 @@ test("heading has list items", ()=>{
 
         expect(nameInput).toBeInTheDocument()
 
-} )
+} ) 
