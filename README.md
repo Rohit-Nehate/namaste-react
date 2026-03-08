@@ -1,4 +1,4 @@
-# Learining React 🚀
+# Learining React 🚀 ⭐
 
 
 # Parcel
